@@ -5,7 +5,7 @@ function MultipleUseState() {
 
     const increase = () =>{
         // setCount(count+1)
-        setCount(count => count +1)
+        setCount(count => count +1) //set previous value + 1
         setCount(count => count +1)
         setCount(count => count +1)
         setCount(count => count +1)
