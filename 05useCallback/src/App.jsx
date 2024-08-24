@@ -8,7 +8,7 @@ function App() {
 
      const newFn =useCallback((count)=>{})
     //  const newFn =useCallback((count)=>{},[count])
-     const newFn =useCallback((count)=>{},[])
+    //  const newFn =useCallback((count)=>{},[])
 
 
   return (
